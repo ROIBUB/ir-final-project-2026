@@ -205,5 +205,3 @@ if __name__ == '__main__':
     print("NUMBER OF TERMS IN INDEX:", len(INDEX_BODY.df))
     print("SAMPLE TERMS:", list(INDEX_BODY.df.keys())[:20])
     app.run(host='0.0.0.0', port=8080, debug=True)
-
-
