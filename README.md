@@ -35,9 +35,7 @@ A single fixed retrieval configuration is used for all queries, without query-ti
 ---
 
 ## Index Files and Storage
-Due to their size, the index files are not stored in the Git repository.  
-All index artifacts are stored in the following Google Cloud Storage bucket:
-
+Due to their size, the index files are not stored in the Git repository. All index artifacts are stored in the following Google Cloud Storage bucket:
 https://storage.googleapis.com/roi-ir-bucket-1919
 
 ---
@@ -47,8 +45,8 @@ https://storage.googleapis.com/roi-ir-bucket-1919
 2. Run the search server:
    ```bash
    python search_frontend.py
-3. The server will be available at: http://<SERVER_IP>:8080
-Example Query : curl "http://<SERVER_IP>:8080/search?query=dana+international+eurovision"
+3. The server will be available at: http://34.30.48.116:8080
+Example Query : curl "http://34.30.48.116:8080/search?query=dana+international+eurovision"
 
 ---
 
