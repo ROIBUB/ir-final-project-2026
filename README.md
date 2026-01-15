@@ -30,7 +30,9 @@ A single fixed retrieval configuration is used for all queries, without query-ti
 - `inverted_index_gcp.py` – Inverted index implementation with support for Google Cloud Storage  
 - `search_frontend.py` – Flask-based search server  
 - `run_frontend_in_gcp.sh` – Script for running the server on GCP  
-- `queries_train.json` – Query set used for evaluation  
+- `queries_train.json` – Query set used for evaluation
+-  `index_building.ipynb` – Jupyter Notebook for Building an Index  
+ 
 
 ---
 
